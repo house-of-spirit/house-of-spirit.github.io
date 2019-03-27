@@ -21,7 +21,7 @@
                 tokens.push('')
                 continue;
             }
-            if(c.match(/[.,;:"']/i))
+            if(c.match(/[.,;:"'?!]/i))
             {
                 tokens.push(c)
                 continue
@@ -40,7 +40,7 @@
         let innerhtml = '';
         for(let i = 0; i < tokens.length; ++i)
         {
-            let space = tokens[i].match(/[^'"]/i) && tokens[i+1] && !tokens[i+1].match(/[.,;:"']/i)
+            let space = tokens[i].match(/[^'"?!]/i) && tokens[i+1] && !tokens[i+1].match(/[.,;:"']/i)
             let element = "<span id=woord_" + i + ">" + tokens[i]  + "</span>" + (space? ' ': '');
             innerhtml += element; 
         }
@@ -54,7 +54,7 @@
     {   
         function detect_leesteken(token)
         {
-            return token.match(/[.,;:]/i)
+            return token.match(/[.,;:?!]/i)
         }
 
         function detect_lidwoord(token)

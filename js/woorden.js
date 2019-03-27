@@ -482,5 +482,7 @@ const hulpwerkwoorden = [
     "heb", "hebt", "heeft", "hebben",
     "had", "hadden",
     "wil", "wilt", "willen",
-    "wou", "wilde", "wilden"
+    "wou", "wilde", "wilden",
+    "kan", "kunnen",
+    "kon", "konden"
 ]
