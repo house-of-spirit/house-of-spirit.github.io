@@ -1,0 +1,58 @@
+.zelfstandig_naamwoord {
+    background-color: greenyellow;
+}
+
+.leesteken {
+    background-color: lightskyblue;
+    font-weight: bold;
+    color:black;
+}
+
+.lidwoord {
+    background-color: plum;
+}
+
+.bijvoegelijk_naamwoord_bijwoord {
+    background-color: red;
+}
+
+.persoonlijk_voornaamwoord {
+    background-color: yellow;
+}
+
+.ambigu {
+    background-color: blue;
+    color: white;
+}
+
+.onbepaald {
+    background-color:black;
+    color: white;
+}
+
+.voorzetsel {
+    background-color: aqua;
+}
+
+.hulpwerkwoord {
+    background-color: mediumslateblue;
+}
+.koppelwerkwoord {
+    background-color: palevioletred;
+}
+
+.bijwoord {
+    background-color: mediumspringgreen;
+}
+
+.vraagwoord {
+    background-color: magenta;
+}
+
+.bezittelijk_voornaamwoord {
+    background-color: wheat;
+}
+
+.aanwijzend_betrekkelijk_voornaamwoord {
+    background-color: coral;
+}
